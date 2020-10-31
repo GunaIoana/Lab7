@@ -45,7 +45,7 @@ public void actionPerformed(ActionEvent ae) {
   }
   else if (ae.getActionCommand().equals("Right")) {
     rightCount++;
-    rightCount.setText("Count: " + rightCount);
+    rightLabel.setText("Count: " + rightCount);
   }
   else {
     leftCount = 0;
